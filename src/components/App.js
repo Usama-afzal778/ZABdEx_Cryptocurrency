@@ -17,9 +17,15 @@ import Markets from './Markets'
 import Balance from './Balance'
 import Order from './Order'
 import PriceChart from './PriceChart'
+import Transactions from './Transactions'
+import Trades from './Trades'
 import OrderBook from './OrderBook'
+import Alert from './Alert'
 
 function App() {
+  useEffect(() => {
+    document.title = "ZABdEX"; 
+  }, []);
   const dispatch = useDispatch()
 
   const loadBlockchainData = async () => {
@@ -78,16 +84,16 @@ function App() {
 
           <PriceChart />
 
-          {/* Transactions */}
+          <Transactions />
 
-          {/* Trades */}
+          <Trades />
 
           <OrderBook />
 
         </section>
       </main>
 
-      {/* Alert */}
+      <Alert />
 
     </div>
   );

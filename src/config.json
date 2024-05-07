@@ -13,5 +13,20 @@
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
     },
     "explorerURL": "#"
+  },
+  "11155111": {
+    "exchange": {
+      "address": "0x61b32CCef5B3c61c4F70541F1FFAD9BDc15f7eda"
+    },
+    "ZAB": {
+      "address": "0x96967828A8960106405d7dC55286d78CdA25013c"
+    },
+    "mETH": {
+      "address": "0xA8C9375b8e410bcaFF7C822eBdce2b12446BdD9A"
+    },
+    "mDAI": {
+      "address": "0x62dc660A8e62257D0C5Cc7Bcd6Af2C40908E0296"
+    },
+    "explorerURL": "https://sepolia.etherscan.io/"
   }
 }
